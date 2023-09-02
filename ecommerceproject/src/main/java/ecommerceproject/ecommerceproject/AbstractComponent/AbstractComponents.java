@@ -1,4 +1,4 @@
-package ecommerceproject.ecommerceproject;
+package ecommerceproject.ecommerceproject.AbstractComponent;
 
 import java.time.Duration;
 

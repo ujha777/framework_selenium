@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import ecommerceproject.ecommerceproject.AbstractComponents;
+import ecommerceproject.ecommerceproject.AbstractComponent.AbstractComponents;
 
 public class CheckOutPage extends AbstractComponents {
 	WebDriver driver;
