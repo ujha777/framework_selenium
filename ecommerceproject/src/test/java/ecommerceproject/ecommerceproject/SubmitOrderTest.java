@@ -19,14 +19,11 @@ import org.testng.annotations.Test;
 import ecommerceproject.ecommerceproject.TestComponent.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class StandAloneTest extends BaseTest  {
+public class SubmitOrderTest extends BaseTest  {
     @Test
 	public void submitOrder() throws IOException {
 		// TODO Auto-generated method stub
 		String productName="ZARA COAT 3";
-	    LandingPage landingpage=launchApplication();
-
-	
 		ProductCatalouge productcatalouge = landingpage.loginApplication("jhagangeshgunjan@gmail.com", "Jha@123gg");
 		List<WebElement> products = productcatalouge.getProductList();
 		productcatalouge.addProductToCart(productName);
@@ -38,7 +35,7 @@ public class StandAloneTest extends BaseTest  {
 		ConfirmationPage confirmationpage = checkoutpage.submitOrder();
 		String confirmMsg=confirmationpage.getConfirmationMessage();
 		Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
-		driver.close();
+		
 	}
 
 }
