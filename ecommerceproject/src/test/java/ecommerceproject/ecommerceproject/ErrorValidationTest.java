@@ -16,7 +16,7 @@ import ecommerceproject.ecommerceproject.TestComponent.BaseTest;
 
 
 public class ErrorValidationTest extends BaseTest{
-	 @Test
+	 @Test(groups = {"ErrorHandling"})
 		public void loginErrorValidation() throws IOException {
 			// TODO Auto-generated method stub
 	        landingpage.loginApplication("jhagangeshgunjan@gmail.co", "Jha@123gg");

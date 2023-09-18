@@ -20,10 +20,11 @@ import ecommerceproject.ecommerceproject.TestComponent.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SubmitOrderTest extends BaseTest  {
+	String productName="ZARA COAT 3";
     @Test
 	public void submitOrder() throws IOException {
 		// TODO Auto-generated method stub
-		String productName="ZARA COAT 3";
+	
 		ProductCatalouge productcatalouge = landingpage.loginApplication("jhagangeshgunjan@gmail.com", "Jha@123gg");
 		List<WebElement> products = productcatalouge.getProductList();
 		productcatalouge.addProductToCart(productName);
@@ -37,6 +38,15 @@ public class SubmitOrderTest extends BaseTest  {
 		Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		
 	}
+    //To Verify ZARA COAT 3 Page displayed in Orders Page 
+    @Test(dependsOnMethods = {"submitOrder"})
+    public void orderHistoryTest() {
+		ProductCatalouge productcatalouge = landingpage.loginApplication("jhagangeshgunjan@gmail.com", "Jha@123gg");
+		OrderPage orderpage=productcatalouge.goToOrderPage();
+		Assert.assertTrue(orderpage.VerifyOrderDispaly(productName));
+	
+		
+    }
 
 }
 
