@@ -7,6 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
 import ecommerceproject.ecommerceproject.CartPage;
 import ecommerceproject.ecommerceproject.CheckOutPage;
 import ecommerceproject.ecommerceproject.ConfirmationPage;
@@ -16,11 +19,12 @@ import ecommerceproject.ecommerceproject.TestComponent.BaseTest;
 
 
 public class ErrorValidationTest extends BaseTest{
+
 	 @Test(groups = {"ErrorHandling"})
 		public void loginErrorValidation() throws IOException {
 			// TODO Auto-generated method stub
 	        landingpage.loginApplication("jhagangeshgunjan@gmail.co", "Jha@123gg");
-			Assert.assertEquals("Incorrect email or password.",landingpage.getErrorMessage());
+			Assert.assertEquals("Incorrect email  password.",landingpage.getErrorMessage());
 	
 			
 		}
