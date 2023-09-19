@@ -16,11 +16,16 @@ import ecommerceproject.ecommerceproject.resources.ExtentReporterNG;
 public class Listeners extends BaseTest implements ITestListener {
 	ExtentTest test;
 	ExtentReports extent=ExtentReporterNG.getReporterObject();
+	ThreadLocal<ExtentTest> extenttest=new ThreadLocal<ExtentTest>();
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestStart(result);
 		test=extent.createTest(result.getMethod().getMethodName());
+		extenttest.set(test);//assign unique thread id of error validation test
+		
+		
 	}
 
 	@Override
@@ -34,7 +39,7 @@ public class Listeners extends BaseTest implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestFailure(result);
-		test.fail(result.getThrowable());
+		extenttest.get().fail(result.getThrowable());
 		try {
 			driver=(WebDriver) result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 		} catch (Exception e) {
@@ -48,7 +53,7 @@ public class Listeners extends BaseTest implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		test.addScreenCaptureFromPath(filePath,result.getMethod().getMethodName());
+		extenttest.get().addScreenCaptureFromPath(filePath,result.getMethod().getMethodName());
 		//test.log(Status.FAIL, "TEST FAILED");
 	}
 

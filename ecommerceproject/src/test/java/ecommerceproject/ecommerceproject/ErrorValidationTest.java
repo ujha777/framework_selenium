@@ -6,27 +6,18 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
-import ecommerceproject.ecommerceproject.CartPage;
-import ecommerceproject.ecommerceproject.CheckOutPage;
-import ecommerceproject.ecommerceproject.ConfirmationPage;
-import ecommerceproject.ecommerceproject.ProductCatalouge;
 import ecommerceproject.ecommerceproject.TestComponent.BaseTest;
+import ecommerceproject.ecommerceproject.TestComponent.Retry;
 
 
 
 public class ErrorValidationTest extends BaseTest{
 
-	 @Test(groups = {"ErrorHandling"})
+	 @Test(groups = {"ErrorHandling"},retryAnalyzer=Retry.class)
 		public void loginErrorValidation() throws IOException {
 			// TODO Auto-generated method stub
 	        landingpage.loginApplication("jhagangeshgunjan@gmail.co", "Jha@123gg");
-			Assert.assertEquals("Incorrect email  password.",landingpage.getErrorMessage());
-	
-			
+			Assert.assertEquals("Incorrect email  password.",landingpage.getErrorMessage());			
 		}
 	  @Test
 		public void productErrorValidation() throws IOException {
@@ -37,9 +28,6 @@ public class ErrorValidationTest extends BaseTest{
 			productcatalouge.addProductToCart(productName);
 			CartPage cartpage=productcatalouge.goToCartPage();
 			boolean match = cartpage.verifyProductDislay("ZARA COAT 33");
-			Assert.assertFalse(match);
-			
+			Assert.assertFalse(match);	
 		}
-
-
 }

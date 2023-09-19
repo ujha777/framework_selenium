@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  1 skipped,  5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ecommerceproject.ecommerceproject.ErrorValidationTest" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -132,12 +146,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ecommerceproject.ecommerceproject.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})">submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="ecommerceproject.ecommerceproject.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})">submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ecommerceproject.ecommerceproject.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})">submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="ecommerceproject.ecommerceproject.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})">submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -164,7 +178,7 @@
                   </a> <!-- loginErrorValidation -->
                   <span class="method-name">loginErrorValidation</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-	at ecommerceproject.ecommerceproject.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:27)
+	at ecommerceproject.ecommerceproject.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 33 stack frames
 </div> <!-- stack-trace -->
@@ -172,6 +186,41 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ecommerceproject.ecommerceproject.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorValidation">
+                  </a> <!-- loginErrorValidation -->
+                  <span class="method-name">loginErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+	at ecommerceproject.ecommerceproject.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ecommerceproject.ecommerceproject.ErrorValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productErrorValidation">
+                  </a> <!-- productErrorValidation -->
+                  <span class="method-name">productErrorValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -196,33 +245,18 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})">
-                  </a> <!-- submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com}) -->
-                  <span class="method-name">submitOrder</span>
-                  <span class="parameters">({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})">
                   </a> <!-- submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com}) -->
                   <span class="method-name">submitOrder</span>
                   <span class="parameters">({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">ecommerceproject.ecommerceproject.ErrorValidationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="productErrorValidation">
-                  </a> <!-- productErrorValidation -->
-                  <span class="method-name">productErrorValidation</span>
+                  <a name="submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})">
+                  </a> <!-- submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -306,36 +340,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'submitOrder')
 data.setCell(0, 2, 'ecommerceproject.ecommerceproject.SubmitOrderTest')
-data.setCell(0, 3, 16808);
+data.setCell(0, 3, 19473);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'submitOrder')
-data.setCell(1, 2, 'ecommerceproject.ecommerceproject.SubmitOrderTest')
-data.setCell(1, 3, 4755);
+data.setCell(1, 1, 'productErrorValidation')
+data.setCell(1, 2, 'ecommerceproject.ecommerceproject.ErrorValidationTest')
+data.setCell(1, 3, 15421);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'productErrorValidation')
-data.setCell(2, 2, 'ecommerceproject.ecommerceproject.ErrorValidationTest')
-data.setCell(2, 3, 2853);
+data.setCell(2, 1, 'submitOrder')
+data.setCell(2, 2, 'ecommerceproject.ecommerceproject.SubmitOrderTest')
+data.setCell(2, 3, 4350);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'orderHistoryTest')
 data.setCell(3, 2, 'ecommerceproject.ecommerceproject.SubmitOrderTest')
-data.setCell(3, 3, 1521);
+data.setCell(3, 3, 1834);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'orderHistoryTest')
 data.setCell(4, 2, 'ecommerceproject.ecommerceproject.SubmitOrderTest')
-data.setCell(4, 3, 1222);
+data.setCell(4, 3, 1535);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'loginErrorValidation')
 data.setCell(5, 2, 'ecommerceproject.ecommerceproject.ErrorValidationTest')
-data.setCell(5, 3, 805);
+data.setCell(5, 3, 1003);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginErrorValidation')
+data.setCell(6, 2, 'ecommerceproject.ecommerceproject.ErrorValidationTest')
+data.setCell(6, 3, 927);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -368,76 +406,88 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</span>
-                <span class="method-start">4833 ms</span>
+                <span class="method-start">15172 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9601 ms</span>
+                <span class="method-start">34667 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">9805 ms</span>
+                <span class="method-start">35108 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitOrder({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})</span>
-                <span class="method-start">14588 ms</span>
+                <span class="method-start">38464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31403 ms</span>
+                <span class="method-start">42816 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">31925 ms</span>
+                <span class="method-start">43306 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">orderHistoryTest({password=Jha@123gg, product=ZARA COAT 3, email=jhagangeshgunjan@gmail.com})</span>
-                <span class="method-start">34744 ms</span>
+                <span class="method-start">47832 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36267 ms</span>
+                <span class="method-start">49376 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">36450 ms</span>
+                <span class="method-start">49586 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">orderHistoryTest({password=G@g8961jha, product=ADIDAS ORIGINAL, email=ujha777@gmail.com})</span>
-                <span class="method-start">40024 ms</span>
+                <span class="method-start">56263 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41251 ms</span>
+                <span class="method-start">58099 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ecommerceproject.ecommerceproject.ErrorValidationTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">42116 ms</span>
+                <span class="method-start">59860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginErrorValidation</span>
+                <span class="method-start">64268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">65543 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginErrorValidation</span>
-                <span class="method-start">44939 ms</span>
+                <span class="method-start">77096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">46200 ms</span>
+                <span class="method-start">78943 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchApplication</span>
-                <span class="method-start">46506 ms</span>
+                <span class="method-start">79168 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">productErrorValidation</span>
-                <span class="method-start">49304 ms</span>
+                <span class="method-start">82319 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52158 ms</span>
+                <span class="method-start">97745 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
