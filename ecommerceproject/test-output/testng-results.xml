@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="7" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-19T21:41:34 IST" name="Suite" finished-at="2023-09-19T21:43:12 IST" duration-ms="98453">
+  <suite started-at="2023-09-29T20:04:32 IST" name="Suite" finished-at="2023-09-29T20:05:40 IST" duration-ms="67485">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" name="loginErrorValidation" class="ecommerceproject.ecommerceproject.ErrorValidationTest"/>
@@ -11,13 +11,13 @@
         <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" name="submitOrder" class="ecommerceproject.ecommerceproject.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-09-19T21:41:34 IST" name="Submit Order Test" finished-at="2023-09-19T21:42:33 IST" duration-ms="58828">
+    <test started-at="2023-09-29T20:04:32 IST" name="Submit Order Test" finished-at="2023-09-29T20:05:26 IST" duration-ms="54061">
       <class name="ecommerceproject.ecommerceproject.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:41:34 IST" name="launchApplication" finished-at="2023-09-19T21:41:49 IST" duration-ms="15167" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:04:33 IST" name="launchApplication" finished-at="2023-09-29T20:04:47 IST" duration-ms="14681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:41:49 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-19T21:42:09 IST" duration-ms="19473" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:04:47 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-29T20:04:53 IST" duration-ms="5495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:09 IST" name="tearDown" finished-at="2023-09-19T21:42:09 IST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:04:53 IST" name="tearDown" finished-at="2023-09-29T20:04:53 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:09 IST" name="launchApplication" finished-at="2023-09-19T21:42:13 IST" duration-ms="3356" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:04:53 IST" name="launchApplication" finished-at="2023-09-29T20:04:58 IST" duration-ms="4745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:13 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-19T21:42:17 IST" duration-ms="4350" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:04:58 IST" name="submitOrder" data-provider="getData" finished-at="2023-09-29T20:05:14 IST" duration-ms="16184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:17 IST" name="tearDown" finished-at="2023-09-19T21:42:18 IST" duration-ms="473" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:14 IST" name="tearDown" finished-at="2023-09-29T20:05:15 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:18 IST" name="launchApplication" finished-at="2023-09-19T21:42:22 IST" duration-ms="4526" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:15 IST" name="launchApplication" finished-at="2023-09-29T20:05:18 IST" duration-ms="3299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:22 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-09-19T21:42:24 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1535" status="PASS">
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:18 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-09-29T20:05:19 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1356" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:24 IST" name="tearDown" finished-at="2023-09-19T21:42:24 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:19 IST" name="tearDown" finished-at="2023-09-29T20:05:19 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:24 IST" name="launchApplication" finished-at="2023-09-19T21:42:30 IST" duration-ms="6676" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:19 IST" name="launchApplication" finished-at="2023-09-29T20:05:25 IST" duration-ms="5387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:30 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-09-19T21:42:32 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1834" status="PASS">
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:25 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-09-29T20:05:26 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,135 +85,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-19T21:42:32 IST" name="tearDown" finished-at="2023-09-19T21:42:33 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@6f15d60e]" started-at="2023-09-29T20:05:26 IST" name="tearDown" finished-at="2023-09-29T20:05:26 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ecommerceproject.ecommerceproject.SubmitOrderTest -->
     </test> <!-- Submit Order Test -->
-    <test started-at="2023-09-19T21:42:34 IST" name="Error Validation Test" finished-at="2023-09-19T21:43:12 IST" duration-ms="38081">
+    <test started-at="2023-09-29T20:05:27 IST" name="Error Validation Test" finished-at="2023-09-29T20:05:40 IST" duration-ms="12616">
       <class name="ecommerceproject.ecommerceproject.ErrorValidationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:34 IST" name="launchApplication" finished-at="2023-09-19T21:42:38 IST" duration-ms="4408" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:27 IST" name="launchApplication" finished-at="2023-09-29T20:05:32 IST" duration-ms="4706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:38 IST" name="loginErrorValidation" finished-at="2023-09-19T21:42:39 IST" duration-ms="1003" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at ecommerceproject.ecommerceproject.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:32 IST" name="loginErrorValidation" finished-at="2023-09-29T20:05:33 IST" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:40 IST" name="tearDown" finished-at="2023-09-19T21:42:40 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:33 IST" name="tearDown" finished-at="2023-09-29T20:05:33 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:40 IST" name="launchApplication" finished-at="2023-09-19T21:42:51 IST" duration-ms="11553" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:33 IST" name="launchApplication" finished-at="2023-09-29T20:05:37 IST" duration-ms="3477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:51 IST" name="loginErrorValidation" finished-at="2023-09-19T21:42:52 IST" duration-ms="927" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at ecommerceproject.ecommerceproject.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:263)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:53 IST" name="tearDown" finished-at="2023-09-19T21:42:53 IST" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:53 IST" name="launchApplication" finished-at="2023-09-19T21:42:57 IST" duration-ms="3151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:42:57 IST" name="productErrorValidation" finished-at="2023-09-19T21:43:12 IST" duration-ms="15421" status="PASS">
+        <test-method signature="productErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:37 IST" name="productErrorValidation" finished-at="2023-09-29T20:05:40 IST" duration-ms="2988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-19T21:43:12 IST" name="tearDown" finished-at="2023-09-19T21:43:12 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@7f2cfe3f]" started-at="2023-09-29T20:05:40 IST" name="tearDown" finished-at="2023-09-29T20:05:40 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

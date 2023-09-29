@@ -10,7 +10,7 @@
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
-          <include name="loginErrorValidation"/>
+          <include name="productErrorValidation"/>
         </methods>
       </class> <!-- ecommerceproject.ecommerceproject.ErrorValidationTest -->
     </classes>
