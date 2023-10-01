@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-01T12:19:14 IST" name="Suite" finished-at="2023-10-01T12:20:47 IST" duration-ms="93584">
+  <suite started-at="2023-10-01T12:32:05 IST" name="Suite" finished-at="2023-10-01T12:33:56 IST" duration-ms="110707">
     <groups>
       <group name="ErrorHandling">
         <method signature="ErrorValidationTest.loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" name="loginErrorValidation" class="ecommerceproject.ecommerceproject.ErrorValidationTest"/>
@@ -11,13 +11,13 @@
         <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" name="submitOrder" class="ecommerceproject.ecommerceproject.SubmitOrderTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2023-10-01T12:19:14 IST" name="Submit Order Test" finished-at="2023-10-01T12:20:19 IST" duration-ms="65562">
+    <test started-at="2023-10-01T12:32:05 IST" name="Submit Order Test" finished-at="2023-10-01T12:33:32 IST" duration-ms="86922">
       <class name="ecommerceproject.ecommerceproject.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:19:14 IST" name="launchApplication" finished-at="2023-10-01T12:19:23 IST" duration-ms="8762" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:32:06 IST" name="launchApplication" finished-at="2023-10-01T12:32:25 IST" duration-ms="18665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:19:23 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-01T12:19:40 IST" duration-ms="16770" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:32:25 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-01T12:32:58 IST" duration-ms="33290" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:19:40 IST" name="tearDown" finished-at="2023-10-01T12:19:40 IST" duration-ms="122" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:32:58 IST" name="tearDown" finished-at="2023-10-01T12:32:58 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:19:40 IST" name="launchApplication" finished-at="2023-10-01T12:19:48 IST" duration-ms="8237" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:32:58 IST" name="launchApplication" finished-at="2023-10-01T12:33:04 IST" duration-ms="5935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:19:48 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-01T12:20:08 IST" duration-ms="20278" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:04 IST" name="submitOrder" data-provider="getData" finished-at="2023-10-01T12:33:20 IST" duration-ms="15884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:08 IST" name="tearDown" finished-at="2023-10-01T12:20:08 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:20 IST" name="tearDown" finished-at="2023-10-01T12:33:20 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:08 IST" name="launchApplication" finished-at="2023-10-01T12:20:12 IST" duration-ms="3441" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:20 IST" name="launchApplication" finished-at="2023-10-01T12:33:25 IST" duration-ms="4448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:12 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-10-01T12:20:13 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1459" status="PASS">
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:25 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-10-01T12:33:26 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:13 IST" name="tearDown" finished-at="2023-10-01T12:20:14 IST" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:26 IST" name="tearDown" finished-at="2023-10-01T12:33:26 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:14 IST" name="launchApplication" finished-at="2023-10-01T12:20:17 IST" duration-ms="3459" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:26 IST" name="launchApplication" finished-at="2023-10-01T12:33:30 IST" duration-ms="4116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:17 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-10-01T12:20:18 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1493" status="PASS">
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:30 IST" name="orderHistoryTest" data-provider="getData" finished-at="2023-10-01T12:33:32 IST" depends-on-methods="ecommerceproject.ecommerceproject.SubmitOrderTest.submitOrder" duration-ms="1354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,35 +85,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:20:18 IST" name="tearDown" finished-at="2023-10-01T12:20:19 IST" duration-ms="703" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.SubmitOrderTest@4a003cbe]" started-at="2023-10-01T12:33:32 IST" name="tearDown" finished-at="2023-10-01T12:33:32 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- ecommerceproject.ecommerceproject.SubmitOrderTest -->
     </test> <!-- Submit Order Test -->
-    <test started-at="2023-10-01T12:20:21 IST" name="Error Validation Test" finished-at="2023-10-01T12:20:47 IST" duration-ms="26120">
+    <test started-at="2023-10-01T12:33:33 IST" name="Error Validation Test" finished-at="2023-10-01T12:33:56 IST" duration-ms="22989">
       <class name="ecommerceproject.ecommerceproject.ErrorValidationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:21 IST" name="launchApplication" finished-at="2023-10-01T12:20:26 IST" duration-ms="5131" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:33 IST" name="launchApplication" finished-at="2023-10-01T12:33:36 IST" duration-ms="3273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:26 IST" name="loginErrorValidation" finished-at="2023-10-01T12:20:28 IST" duration-ms="1770" status="PASS">
+        <test-method signature="loginErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:36 IST" name="loginErrorValidation" finished-at="2023-10-01T12:33:38 IST" duration-ms="1511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:28 IST" name="tearDown" finished-at="2023-10-01T12:20:28 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:38 IST" name="tearDown" finished-at="2023-10-01T12:33:38 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:28 IST" name="launchApplication" finished-at="2023-10-01T12:20:33 IST" duration-ms="4327" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:38 IST" name="launchApplication" finished-at="2023-10-01T12:33:41 IST" duration-ms="3242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:33 IST" name="productErrorValidation" finished-at="2023-10-01T12:20:47 IST" duration-ms="14357" status="PASS">
+        <test-method signature="productErrorValidation()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:41 IST" name="productErrorValidation" finished-at="2023-10-01T12:33:56 IST" duration-ms="14678" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:20:47 IST" name="tearDown" finished-at="2023-10-01T12:20:47 IST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerceproject.ecommerceproject.ErrorValidationTest@491b9b8]" started-at="2023-10-01T12:33:56 IST" name="tearDown" finished-at="2023-10-01T12:33:56 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
