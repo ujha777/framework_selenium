@@ -43,7 +43,7 @@ public class SubmitOrderTest extends BaseTest  {
 		Assert.assertTrue(confirmMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		
 	}
-    //To Verify ZARA COAT 3 Page displayed in Orders Page 
+    //To verify ZARA COAT 3 Page displayed in Orders Page 
     @Test(dataProvider = "getData",dependsOnMethods = {"submitOrder"})
     public void orderHistoryTest(HashMap<String,String> input) {
 		ProductCatalouge productcatalouge = landingpage.loginApplication(input.get("email"), input.get("password"));
